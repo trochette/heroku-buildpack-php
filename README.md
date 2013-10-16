@@ -28,7 +28,7 @@ Configure Heroku to use this buildpack repo AND branch
 
 This buildpack also supports custom Document Roots in your application. Simply add an environment variable. If your document root is public in the root of your repo, then run
     
-    heroku config:set WWWROOT=/public
+    heroku config:set WWWROOT=/
 
 Composer
 --------
