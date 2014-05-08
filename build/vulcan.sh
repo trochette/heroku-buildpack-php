@@ -123,6 +123,7 @@ cd /tmp/memcached-2.1.0
   --enable-memcached-json \
   --with-php-config=/app/php/bin/php-config \
   --enable-static
+  --enable-bcmath
 ${MAKE} && ${MAKE} install
 
 # cd /tmp/zip-1.10.2
