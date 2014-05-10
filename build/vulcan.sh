@@ -38,7 +38,7 @@ curl -L ${APACHE_MIRROR_HOST}/apr/apr-util-1.5.2.tar.gz -o /tmp/apr-util-1.5.2.t
 echo "downloading httpd"
 curl -L ${APACHE_MIRROR_HOST}/httpd/httpd-2.4.6.tar.gz -o /tmp/httpd-2.4.6.tar.gz
 echo "downloading php"
-curl -L http://us.php.net/get/php-5.5.3.tar.gz/from/us2.php.net/mirror -o /tmp/php-5.5.3.tar.gz
+curl -L http://museum.php.net/php5/php-5.3.3.tar.gz -o /tmp/php-5.5.3.tar.gz
 echo "downloading pecl-memcached"
 curl -L http://pecl.php.net/get/memcached-2.1.0.tgz -o /tmp/memcached-2.1.0.tgz
 echo "download zlib"
